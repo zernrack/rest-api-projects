@@ -1,0 +1,23 @@
+{
+  "name": "prisma-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "migrate": "prisma migrate dev"
+
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
